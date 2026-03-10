@@ -1,8 +1,7 @@
-package OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.BCar.Test;
+package OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.Ex002Car.Test;
 
-import OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.BCar.Domain.Car;
+import OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.Ex002Car.Domain.Car;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class CarTest01 {

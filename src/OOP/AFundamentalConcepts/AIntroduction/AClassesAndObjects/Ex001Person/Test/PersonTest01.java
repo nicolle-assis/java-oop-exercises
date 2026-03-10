@@ -1,6 +1,6 @@
-package OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.APerson.Test;
+package OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.Ex001Person.Test;
 
-import OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.APerson.Domain.Person;
+import OOP.AFundamentalConcepts.AIntroduction.AClassesAndObjects.Ex001Person.Domain.Person;
 
 import java.util.Scanner;
 
