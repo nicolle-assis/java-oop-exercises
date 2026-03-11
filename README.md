@@ -22,8 +22,8 @@ The project contains **147 exercises** organized from beginner to advanced.
 
 | Topic                  | Status |
 | ---------------------- | ------ |
-| Classes and Objects    | 🟡     |
-| Attributes and Methods | ⚪      |
+| Classes and Objects    | 🟢     |
+| Attributes and Methods | 🟡      |
 | Object Instantiation   | ⚪      |
 
 ---
