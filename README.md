@@ -130,3 +130,8 @@ The project contains **147 exercises** organized from beginner to advanced.
 
 
 ---
+
+## Credits
+
+This repository was inspired by the exercises from the repository  
+[147 Exercícios com POO](https://github.com/Keyllian7/147-Exercicios-com-POO) created by [Keyllian Azevedo](https://github.com/Keyllian7).
