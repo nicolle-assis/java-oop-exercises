@@ -21,10 +21,10 @@ The project contains **147 exercises** organized from beginner to advanced.
 ### 1.1 Introduction to OOP
 
 | Topic                  | Status |
-| ---------------------- | ------ |
-| Classes and Objects    | 🟢     |
-| Attributes and Methods | 🟡      |
-| Object Instantiation   | ⚪      |
+| ---------------------- |-------|
+| Classes and Objects    | 🟢    |
+| Attributes and Methods | 🟢    |
+| Object Instantiation   | 🟡    |
 
 ---
 
