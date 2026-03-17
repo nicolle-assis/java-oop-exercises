@@ -24,7 +24,7 @@ The project contains **147 exercises** organized from beginner to advanced.
 | ---------------------- |-------|
 | Classes and Objects    | 🟢    |
 | Attributes and Methods | 🟢    |
-| Object Instantiation   | 🟡    |
+| Object Instantiation   | 🟢    |
 
 ---
 
@@ -32,7 +32,7 @@ The project contains **147 exercises** organized from beginner to advanced.
 
 | Topic               | Status |
 | ------------------- | ------ |
-| Visibility          | ⚪      |
+| Visibility          | 🟡      |
 | Getters and Setters | ⚪      |
 
 ---
