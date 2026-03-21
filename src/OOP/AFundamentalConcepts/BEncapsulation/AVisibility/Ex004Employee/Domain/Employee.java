@@ -5,6 +5,8 @@ public class Employee {
     private String role;
     private String department;
     private double salary;
+    private String answer;
+    private double increaseRate;
 
     public void display(){
         System.out.println("---------- Dados do(a) funcionário(a) ----------");
@@ -12,6 +14,11 @@ public class Employee {
         System.out.println("Cargo: " + this.role);
         System.out.println("Setor: " + this.department);
         System.out.printf("Salário: R$ %.2f%n", this.salary);
+        System.out.println("---------------------------------------------");
+    }
+
+    public void increaseSalary(){
+        salary = salary + (salary * increaseRate / 100);
     }
 
     public void setName(String name){
@@ -57,5 +64,20 @@ public class Employee {
 
     public double getSalary(){
         return salary;
+    }
+
+    public void setIncreaseRate(double increaseRate){
+        if (increaseRate <= 0){
+            throw new IllegalArgumentException("Porcentagem inválida");
+        }
+        this.increaseRate = increaseRate;
+    }
+
+    public void setAnswer(String answer){
+        this.answer = answer;
+    }
+
+    public String getAnswer(){
+        return answer;
     }
 }
