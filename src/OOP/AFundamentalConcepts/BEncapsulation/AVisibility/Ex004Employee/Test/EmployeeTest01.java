@@ -21,7 +21,7 @@ public class EmployeeTest01 {
         }
 
         while (true) {
-                System.out.print("Cargo: ");
+            System.out.print("Cargo: ");
             try {
                 employee.setRole(input.nextLine().trim());
                 break;
@@ -46,12 +46,32 @@ public class EmployeeTest01 {
                 employee.setSalary(input.nextDouble());
                 input.nextLine();
                 break;
-            }catch (IllegalArgumentException e){
+            } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
                 input.nextLine();
             }
         }
 
+        employee.display();
+
+        System.out.print("Deseja aumentar o salario do(a) funcionário(a)? ");
+        employee.setAnswer(input.nextLine().toUpperCase().trim().substring(0, 1));
+
+        if (employee.getAnswer().equals("S")) {
+            while (true){
+                System.out.print("Qual o valor do aumento em porcentagem? ");
+                try {
+                    employee.setIncreaseRate(input.nextDouble());
+                    input.nextLine();
+                    break;
+                } catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
+                    input.nextLine();
+                }
+            }
+            employee.increaseSalary();
+
+        }
         employee.display();
     }
 }

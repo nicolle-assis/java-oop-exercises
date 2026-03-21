@@ -1,7 +1,7 @@
 # ☕ Java OOP Exercises
 
 Repository created to practice **Object-Oriented Programming (OOP)** concepts using Java.
-The project contains **147 exercises** organized from beginner to advanced.
+The project contains **exercises** organized from beginner to advanced.
 
 ---
 
@@ -32,8 +32,8 @@ The project contains **147 exercises** organized from beginner to advanced.
 
 | Topic               | Status |
 | ------------------- | ------ |
-| Visibility          | 🟡      |
-| Getters and Setters | ⚪      |
+| Visibility          | 🟢      |
+| Getters and Setters | 🟢      |
 
 ---
 
@@ -41,7 +41,7 @@ The project contains **147 exercises** organized from beginner to advanced.
 
 | Topic               | Status |
 | ------------------- | ------ |
-| Inheritance Concept | ⚪      |
+| Inheritance Concept | 🟡      |
 | Method Overriding   | ⚪      |
 
 ---
